@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    background-color: #333377;
+    margin: 0;
+    padding: 0;
+    border: none;
+    color: #ddd;
+    user-select: none;
+    text-align: center;
+}
+
+h1{
+    font-size: 300%;
+    text-align: center;
+    color:rgb(67, 67, 224);
+    letter-spacing :.1em;
+}
+
+#resultado{
+    font-size: 400%;
+    text-align: right;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 1cm;
+    margin-top: 1cm;
+}
+
+.number-item {
+    display: inline-block;
+}
+.operator-item {
+    background-color: teal;
+    display: inline-block;
+}
+.item {
+    background-color: transparent;
+}
+.item:hover, .item:active {
+    background-color: rgba(100, 100, 150, 200);
+    border-radius: 50%;
+}
+
+.fila {
+    text-align: center;
+    display: block;
+}
